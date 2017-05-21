@@ -1,0 +1,59 @@
+<template lang="pug">
+  #app.box
+    router-view
+</template>
+
+<script>
+  import store from 'renderer/vuex/store'
+  export default {
+    store
+  }
+</script>
+
+<style lang='less'>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+html,body { 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 307699 */
+  src: url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.eot');
+  src: url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.svg#iconfont') format('svg');
+}
+.icon{
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+}
+.box{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+a{ text-decoration:none; }
+  body {
+    align-items: center;
+    background:
+      radial-gradient(
+        ellipse at center,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(229, 229, 229, .85) 100%
+      );
+    background-position: center;
+    display: flex;
+    font-family: Lato, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+  }
+</style>

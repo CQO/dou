@@ -1,6 +1,7 @@
-<template lang="pug">
-  #app.box
-    router-view
+<template>
+  <div id="app" class="box">
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
@@ -10,12 +11,11 @@
   }
 </script>
 
-<style lang='less'>
+<style>
   * {
     margin: 0;
     padding: 0;
   }
-
 html,body { 
   width: 100%;
   height: 100%;

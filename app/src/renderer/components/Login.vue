@@ -1,28 +1,41 @@
-<template lang="pug">
-.login-box.box
-  .login
-    .input
-      .username.input-box
-        input(placeholder="用户名")
-        .icon &#xe66b;
-      .password.input-box
-        input(placeholder="密码",type="password")
-        .icon &#xe632;
-    .operation
-      span.remember
-        input(type="checkbox",value="")
-        |  记住密码
-      span.option
-        a(href="#") 忘记密码
-        a(href="#") 注册
-    .login-button 登录
+<template>
+<div class="login-box box">
+  <div class="login">
+    <div class="input">
+      <div class="username input-box">
+        <input placeholder="用户名">
+        <div class="icon">&#xe66b;</div>
+      </div>
+      <div class="password input-box">
+        <input placeholder="密码" type="password">
+        <div class="icon">&#xe632;</div>
+      </div>
+    </div>
+    <div class="operation">
+      <span class="remember">
+        <input type="checkbox">记住密码
+      </span>
+      <span class="option">
+        <a href="#">忘记密码</a>
+        <a href="#">注册</a>
+      </span>
+    </div>
+    <div class="login-button" v-on:click="login()">登录</div>
+  </div>
+</div>
 </template>
 
 <script>
-
+export default {
+  methods: {
+    login: function () {
+      window.location.href = '#/Main'
+    }
+  }
+}
 </script>
 
-<style lang='less' scoped>
+<style scoped>
 .login-box{
   height: 100%;
   width: 100%;
@@ -50,13 +63,14 @@
 }
 .input-box{
   position: relative;
-  .icon{
-    top: 14px;
-    color: #d5d5d5;
-    font-size: 1.2rem;
-    position: absolute;
-    right: 10px;
-  }
+  
+}
+.input-box .icon{
+  top: 14px;
+  color: #d5d5d5;
+  font-size: 1.2rem;
+  position: absolute;
+  right: 10px;
 }
 .operation{
   display: flex;

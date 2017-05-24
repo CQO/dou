@@ -1,5 +1,5 @@
 <template>
-  <div class="title">
+  <div class="title-bar-box">
     <div class="left-item">
       <div class="avatar">
         <div class="state"></div>
@@ -41,7 +41,7 @@ export default {
 .left-item{
   display: flex;
 }
-.title{
+.title-bar-box{
   background-color: #324157;
   height: 50px;
   line-height: 50px;

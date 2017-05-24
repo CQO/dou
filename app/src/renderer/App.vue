@@ -20,11 +20,11 @@ html,body {
 }
 @font-face {
   font-family: 'iconfont';  /* project id 307699 */
-  src: url('//at.alicdn.com/t/font_ryznjvai5udcayvi.eot');
-  src: url('//at.alicdn.com/t/font_ryznjvai5udcayvi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_ryznjvai5udcayvi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_ryznjvai5udcayvi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_ryznjvai5udcayvi.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_sqyiu7ynelrnqaor.eot');
+  src: url('//at.alicdn.com/t/font_sqyiu7ynelrnqaor.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_sqyiu7ynelrnqaor.woff') format('woff'),
+  url('//at.alicdn.com/t/font_sqyiu7ynelrnqaor.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_sqyiu7ynelrnqaor.svg#iconfont') format('svg');
 }
 .icon{
   font-family: "iconfont";

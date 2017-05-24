@@ -12,10 +12,6 @@
 </script>
 
 <style>
-  * {
-    margin: 0;
-    padding: 0;
-  }
 html,body { 
   width: 100%;
   height: 100%;
@@ -24,11 +20,11 @@ html,body {
 }
 @font-face {
   font-family: 'iconfont';  /* project id 307699 */
-  src: url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.eot');
-  src: url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.woff') format('woff'),
-  url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_ybtrz2xgcy1oflxr.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_ryznjvai5udcayvi.eot');
+  src: url('//at.alicdn.com/t/font_ryznjvai5udcayvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ryznjvai5udcayvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ryznjvai5udcayvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ryznjvai5udcayvi.svg#iconfont') format('svg');
 }
 .icon{
   font-family: "iconfont";
@@ -42,18 +38,18 @@ html,body {
   position: relative;
 }
 a{ text-decoration:none; }
-  body {
-    align-items: center;
-    background:
-      radial-gradient(
-        ellipse at center,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(229, 229, 229, .85) 100%
-      );
-    background-position: center;
-    display: flex;
-    font-family: Lato, Helvetica, sans-serif;
-    justify-content: center;
-    text-align: center;
-  }
+body {
+  align-items: center;
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(229, 229, 229, .85) 100%
+    );
+  background-position: center;
+  display: flex;
+  font-family: Lato, Helvetica, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
 </style>

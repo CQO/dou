@@ -11,7 +11,7 @@
         </svg>
       </div>
     </div>
-    <div class="expand" v-show="showExpand">{{text}}</div>
+    <div class="expand" v-show="showExpand"><slot></slot></div>
   </div>
 </template>
 

@@ -1,9 +1,9 @@
 <template>
   <div class="sidebar-right">
     <Banners>try to be helpful</Banners>
-    <UserDetails class="item" imgUrl="https://ca.slack-edge.com/T5J5NEKN3-USLACKBOT-sv1444671949-72" userName="Slackbot" details="Friendly bot, part-time programmer, and Help Center assistant-in-training."></UserDetails>
-    <ExpandList class="item" icon="&#xe652;" title="Pinned Items" text="No items have been pinned yet! Open the context menu on important messages or files and choose Pin to this conversation … to stick them here."></ExpandList>
-    <ExpandList class="item" icon="&#xe610;" title="Shared Files" text="There are no files to see here right now! But there could be – drag and drop any file into the message pane to add it to this conversation."></ExpandList>
+    <UserDetails class="item" imgUrl="http://myweb-10017157.cossh.myqcloud.com/2017/0525/111.png" userName="Slackbot" details="Friendly bot, part-time programmer, and Help Center assistant-in-training."></UserDetails>
+    <ExpandList class="item" icon="&#xe652;" title="Pinned Items">No items have been pinned yet! Open the context menu on important messages or files and choose Pin to this conversation … to stick them here.</ExpandList>
+    <ExpandList class="item" icon="&#xe610;" title="Shared Files">There are no files to see here right now! But there could be – drag and drop any file into the message pane to add it to this conversation.</ExpandList>
   </div>
 </template>
 

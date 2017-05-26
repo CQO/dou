@@ -50,8 +50,14 @@ export default {
   line-height: 40px;
   padding-left: 5px;
 }
+.left{
+  display: flex;
+}
 .icon{
   color: #ffa490;
+}
+.svg{
+  margin: 14px;
 }
 .expand-list-box span{
   color: #9e9ea1;
